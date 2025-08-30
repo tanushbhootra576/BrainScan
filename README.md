@@ -1,11 +1,83 @@
-#  Brain Tumor MRI Classification System
+# 🧠 BrainScan.ai - Smart Tumor Detection
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://python.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://tensorflow.org)
+[![TensorFlow](https://img.shields.io/badge/## 🌐 Web Interface Preview
+
+>  **Screenshots coming soon!**
+> 
+> To add your frontend screenshots:
+> 1. Take screenshots of your application's key pages
+> 2. Save them in `brain-tumor-frontend/public/screenshots/` directory
+> 3. Recommended screenshots:
+>    - Homepage/Dashboard
+>    - Upload interface
+>    - Results/Analysis page
+>    - About/Team pagelow-2.15-orange.svg)](https://tensorflow.org)
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646cff.svg)](https://vitejs.dev)
 
-A comprehensive deep learning system for classifying brain tumors from MRI scans. This project combines a powerful deep learning backend with a modern, responsive web interface for easy interaction. The system can classify MRI scans into four categories:
+##  About the Project
+
+BrainScan.ai is a next-gen medical imaging analysis system that leverages AI to detect and classify brain tumors from MRI scans. Built with cutting-edge tech by Gen Z developers, this project makes medical analysis accessible and user-friendly.
+
+##  Team
+
+### Core Development Team
+- **Raksh** ([@Rakshi2609](https://github.com/Rakshi2609))
+  - Project Lead
+  - Backend Development
+  - Model Architecture
+
+- **Tanush Bhootra** ([@tanushbhootra576](https://github.com/tanushbhootra576))
+  - Frontend Development
+  - UI/UX Design
+  - Integration Testing
+
+##  Project Status
+
+This project is actively maintained by the TJSO team. We're continuously working on:
+- Improving model accuracy
+- Adding new features
+- Enhancing the user interface
+- Implementing feedback from healthcare professionals
+
+##  Contributing
+
+We welcome contributions! Please feel free to submit Pull Requests or open Issues for any bugs/improvements.
+
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+##  License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+##  Acknowledgments
+
+- TJSO Initiative for supporting the project
+- Dataset provided by [Dataset Source]
+- TensorFlow team for the excellent deep learning framework
+- Medical professionals who helped in validating the model's performance
+- Open source community for various tools and libraries used in this projectields.io/badge/TensorFlow-2.15-orange.svg)](https://tensorflow.org)
+[![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646cff.svg)](https://vitejs.dev)
+
+## About the Project
+
+BatteryLow is an advanced medical imaging analysis system that leverages deep learning to assist in the detection and classification of brain tumors from MRI scans. Developed by [Tanush Bhootra](https://github.com/tanushbhootra576) and [Raksh](https://github.com/raksh) as part of the TJSO initiative, this project aims to provide healthcare professionals with a reliable tool for preliminary tumor analysis.
+
+### Key Highlights
+-  Medical-grade classification system
+-  State-of-the-art deep learning model
+-  Modern web interface for easy access
+-  Detailed analysis and reporting
+-  Privacy-focused design
+
+The system can analyze MRI scans and classify them into four distinct categories:
 - 🔴 Glioma
 - 🟡 Meningioma
 - 🟢 No tumor
@@ -112,11 +184,11 @@ The model achieves approximately 80% accuracy on the test set, demonstrating str
 
 ##  Web Interface Preview
 
-![Upload Page](./brain-tumor-frontend/public/screenshots/upload-page.png)
-*Image upload interface with drag-and-drop functionality*
+![Upload Page](./brain-tumor-frontend/public/screenshots/Screenshot%202025-08-24%20221902.png)
 
+<!-- 
 ![Results Page](./brain-tumor-frontend/public/screenshots/results-page.png)
-*Classification results with confidence scores visualization*
+*Classification results with confidence scores visualization* -->
 
 ##  Usage Examples
 
