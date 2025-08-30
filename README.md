@@ -167,7 +167,7 @@ The model achieves approximately 80% accuracy on the test set, demonstrating str
 - Recall: ~76%
 - F1-Score: ~77%
 
-## 🌐 Web Interface Preview
+## Web Interface Preview
 
 ### Upload Interface
 <img src="brain-tumor-frontend/public/screenshots/upload-interface.png" alt="Upload Interface" width="800"/>
