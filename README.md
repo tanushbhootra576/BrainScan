@@ -170,11 +170,11 @@ The model achieves approximately 80% accuracy on the test set, demonstrating str
 ## 🌐 Web Interface Preview
 
 ### Upload Interface
-![Upload Page](./public/screenshots/Screenshot 2025-08-24 221902.png)
+![Upload Page](./brain-tumor-frontend/public/screenshots/Screenshot%202025-08-24%20221902.png)
 *Intuitive drag-and-drop interface for MRI scan uploads*
 
 ### Analysis Dashboard
-![Results Page](./public/screenshots/Screenshot_25-8-2025_1279_localhost.jpeg)
+![Results Page](./brain-tumor-frontend/public/screenshots/Screenshot_25-8-2025_1279_localhost.jpeg)
 *AI-powered analysis with detailed classification results*
 
 > Note: Screenshots are for illustration. The actual interface may vary slightly based on the latest updates.
