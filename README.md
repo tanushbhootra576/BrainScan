@@ -1,18 +1,7 @@
-# 🧠 BrainScan.ai - Smart Tumor Detection
+# BrainScan.ai - Smart Tumor Detection
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://python.org)
-[![TensorFlow](https://img.shields.io/badge/## 🌐 Web Interface Preview
-
->  **Screenshots coming soon!**
-> 
-> To add your frontend screenshots:
-> 1. Take screenshots of your application's key pages
-> 2. Save them in `brain-tumor-frontend/public/screenshots/` directory
-> 3. Recommended screenshots:
->    - Homepage/Dashboard
->    - Upload interface
->    - Results/Analysis page
->    - About/Team pagelow-2.15-orange.svg)](https://tensorflow.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://tensorflow.org)
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646cff.svg)](https://vitejs.dev)
 
@@ -23,7 +12,7 @@ BrainScan.ai is a next-gen medical imaging analysis system that leverages AI to 
 ##  Team
 
 ### Core Development Team
-- **Raksh** ([@Rakshi2609](https://github.com/Rakshi2609))
+- **Rakshith Ganjimut** ([@Rakshi2609](https://github.com/Rakshi2609))
   - Project Lead
   - Backend Development
   - Model Architecture
@@ -35,7 +24,7 @@ BrainScan.ai is a next-gen medical imaging analysis system that leverages AI to 
 
 ##  Project Status
 
-This project is actively maintained by the TJSO team. We're continuously working on:
+This project is actively maintained by the team. We're continuously working on:
 - Improving model accuracy
 - Adding new features
 - Enhancing the user interface
@@ -52,10 +41,6 @@ We welcome contributions! Please feel free to submit Pull Requests or open Issue
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ##  Acknowledgments
 
 - TJSO Initiative for supporting the project
@@ -68,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## About the Project
 
-BatteryLow is an advanced medical imaging analysis system that leverages deep learning to assist in the detection and classification of brain tumors from MRI scans. Developed by [Tanush Bhootra](https://github.com/tanushbhootra576) and [Raksh](https://github.com/raksh) as part of the TJSO initiative, this project aims to provide healthcare professionals with a reliable tool for preliminary tumor analysis.
+BrainScan is an advanced medical imaging analysis system that leverages deep learning to assist in the detection and classification of brain tumors from MRI scans. Developed by [Tanush Bhootra](https://github.com/tanushbhootra576) and [Raksh](https://github.com/raksh), this project aims to provide healthcare professionals with a reliable tool for preliminary tumor analysis.
 
 ### Key Highlights
 -  Medical-grade classification system
@@ -182,13 +167,17 @@ The model achieves approximately 80% accuracy on the test set, demonstrating str
 - Recall: ~76%
 - F1-Score: ~77%
 
-##  Web Interface Preview
+## 🌐 Web Interface Preview
 
-![Upload Page](./brain-tumor-frontend/public/screenshots/Screenshot%202025-08-24%20221902.png)
+### Upload Interface
+![Upload Page](./public/screenshots/Screenshot 2025-08-24 221902.png)
+*Intuitive drag-and-drop interface for MRI scan uploads*
 
-<!-- 
-![Results Page](./brain-tumor-frontend/public/screenshots/results-page.png)
-*Classification results with confidence scores visualization* -->
+### Analysis Dashboard
+![Results Page](./public/screenshots/Screenshot_25-8-2025_1279_localhost.jpeg)
+*AI-powered analysis with detailed classification results*
+
+> Note: Screenshots are for illustration. The actual interface may vary slightly based on the latest updates.
 
 ##  Usage Examples
 
@@ -219,9 +208,6 @@ prediction = response.json()
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-##  License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ##  Acknowledgments
 
