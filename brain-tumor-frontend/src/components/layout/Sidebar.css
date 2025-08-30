@@ -1,0 +1,39 @@
+/* Dot grid pattern */
+
+.sidewala {
+    /* position: fixed; */
+    z-index: 40;
+    /* height: 100vh; */
+}
+
+.bg-dot-pattern {
+    background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Glass morphism effect */
+.glass-effect {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Active link with gradient */
+.active-nav-link {
+    background: linear-gradient(90deg, rgba(14, 165, 233, 0.15) 0%, rgba(14, 165, 233, 0.05) 100%);
+    border-left: 3px solid #0ea5e9;
+}
+
+/* Sidebar gradient background */
+.sidebar-gradient {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(249, 250, 251, 0.9) 100%);
+}
+
+/* Fix sidebar positioning for different screen sizes */
+@media (min-width: 768px) {
+    .sidewala {
+        display: block;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+}

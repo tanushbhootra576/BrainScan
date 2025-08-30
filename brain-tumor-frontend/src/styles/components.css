@@ -1,0 +1,100 @@
+/* components.css */
+.glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+.gradient-border {
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.gradient-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--color-primary-500), var(--color-primary-700));
+}
+
+.gradient-text {
+    background: linear-gradient(to right, var(--color-primary-700), var(--color-primary-500));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.shadow-soft {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+
+/* Animated dot pattern for backgrounds */
+.dot-pattern {
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle, var(--color-primary-200) 1px, transparent 1px);
+    animation: moveBackground 50s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100px 100px;
+    }
+}
+
+/* Pulsing animation for important elements */
+.pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Button with gradient hover effect */
+.btn-gradient {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, var(--color-primary-600), var(--color-primary-400));
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.btn-gradient:hover::before {
+    opacity: 1;
+}
