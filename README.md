@@ -1,4 +1,4 @@
-# BrainScan.ai - Smart Tumor Detection
+# BrainScan - Smart Tumor Detection
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)](https://tensorflow.org)
@@ -7,7 +7,7 @@
 
 ##  About the Project
 
-BrainScan.ai is a next-gen medical imaging analysis system that leverages AI to detect and classify brain tumors from MRI scans. Built with cutting-edge tech by Gen Z developers, this project makes medical analysis accessible and user-friendly.
+BrainScan is a next-gen medical imaging analysis system that leverages AI to detect and classify brain tumors from MRI scans. Built with cutting-edge tech by Gen Z developers, this project makes medical analysis accessible and user-friendly.
 
 ##  Team
 
@@ -170,11 +170,13 @@ The model achieves approximately 80% accuracy on the test set, demonstrating str
 ## 🌐 Web Interface Preview
 
 ### Upload Interface
-![Upload Page](./brain-tumor-frontend/public/screenshots/Screenshot%202025-08-24%20221902.png)
+<img src="brain-tumor-frontend/public/screenshots/upload-interface.png" alt="Upload Interface" width="800"/>
+
 *Intuitive drag-and-drop interface for MRI scan uploads*
 
 ### Analysis Dashboard
-![Results Page](./brain-tumor-frontend/public/screenshots/Screenshot_25-8-2025_1279_localhost.jpeg)
+<img src="brain-tumor-frontend/public/screenshots/analysis-dashboard.jpeg" alt="Analysis Dashboard" width="800"/>
+
 *AI-powered analysis with detailed classification results*
 
 > Note: Screenshots are for illustration. The actual interface may vary slightly based on the latest updates.
